@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 36" width="900" height="36">
+  <defs>
+    <linearGradient id="fl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0057FF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0057FF"/>
+    </linearGradient>
+    <linearGradient id="fr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00CCFF"/>
+      <stop offset="100%" stop-color="#00CCFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line x1="0" y1="18" x2="318" y2="18" stroke="url(#fl)" stroke-width="1.5"/>
+  <circle cx="322" cy="18" r="2.5" fill="#0057FF" opacity="0.8"/>
+  <text x="450" y="23" font-family="'Courier New',Courier,monospace" font-size="12" font-weight="bold" text-anchor="middle" fill="#00CCFF" letter-spacing="5">⚡  FEATURED PROJECTS</text>
+  <circle cx="578" cy="18" r="2.5" fill="#00CCFF" opacity="0.8"/>
+  <line x1="582" y1="18" x2="900" y2="18" stroke="url(#fr)" stroke-width="1.5"/>
+</svg>
