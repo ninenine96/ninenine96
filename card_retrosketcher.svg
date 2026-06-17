@@ -3,8 +3,11 @@
   <rect x="0.5" y="0.5" width="429" height="127" rx="5.5" fill="none" stroke="#21262D" stroke-width="1"/>
   <rect width="3" height="128" rx="1.5" fill="#388BFD"/>
   <text x="20" y="38" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="13" font-weight="600" fill="#E6EDF3">retrosketcher</text>
+  <!-- live indicator -->
+  <circle cx="355" cy="33" r="4" fill="#3FB950"/>
+  <text x="364" y="38" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="10" font-weight="600" fill="#3FB950">LIVE</text>
   <text x="415" y="38" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="13" fill="#30363D" text-anchor="end">↗</text>
   <text x="20" y="62" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="11" fill="#8B949E">Pixel art in the browser. Pure vanilla JS,</text>
-  <text x="20" y="78" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="11" fill="#8B949E">no dependencies, no build step. Live at netlify.</text>
+  <text x="20" y="78" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="11" fill="#8B949E">no dependencies, no build step.</text>
   <text x="20" y="106" font-family="'Segoe UI',Arial,Helvetica,sans-serif" font-size="10" fill="#484F58">JavaScript · Canvas · CSS</text>
 </svg>
