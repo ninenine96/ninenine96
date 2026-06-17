@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 148" width="430" height="148">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#060D1F"/>
+      <stop offset="100%" stop-color="#080F22"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0057FF"/>
+      <stop offset="100%" stop-color="#00CCFF"/>
+    </linearGradient>
+    <filter id="g">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="430" height="148" rx="6" fill="url(#bg)"/>
+  <rect width="430" height="2" rx="1" fill="url(#bar)"/>
+
+  <!-- corner brackets -->
+  <g stroke="#1E3A6E" stroke-width="1.5" fill="none">
+    <path d="M 14 12 L 14 24 M 14 12 L 26 12"/>
+    <path d="M 416 12 L 416 24 M 416 12 L 404 12"/>
+  </g>
+
+  <!-- title -->
+  <text x="20" y="40" font-family="'Courier New',Courier,monospace" font-size="13" font-weight="bold" fill="#00CCFF" filter="url(#g)">🤖  discord_call_summarizer</text>
+  <text x="415" y="40" font-family="'Courier New',Courier,monospace" font-size="12" fill="#0057FF" text-anchor="end">↗</text>
+
+  <!-- divider -->
+  <line x1="20" y1="50" x2="410" y2="50" stroke="#0D2045" stroke-width="1"/>
+
+  <!-- description -->
+  <text x="20" y="68" font-family="'Courier New',Courier,monospace" font-size="11" fill="#58A6FF">Records voice calls · transcribes locally with Whisper</text>
+  <text x="20" y="84" font-family="'Courier New',Courier,monospace" font-size="11" fill="#58A6FF">· posts AI summaries via Ollama</text>
+  <text x="20" y="100" font-family="'Courier New',Courier,monospace" font-size="11" fill="#3A6BC4">Fully local — no cloud APIs needed.</text>
+
+  <!-- pills -->
+  <rect x="20" y="118" width="56" height="18" rx="9" fill="#0A1628" stroke="#0057FF" stroke-width="1"/>
+  <text x="48" y="131" font-family="'Courier New',Courier,monospace" font-size="9" fill="#00CCFF" text-anchor="middle">Python</text>
+
+  <rect x="82" y="118" width="58" height="18" rx="9" fill="#0A1628" stroke="#0057FF" stroke-width="1"/>
+  <text x="111" y="131" font-family="'Courier New',Courier,monospace" font-size="9" fill="#00CCFF" text-anchor="middle">Whisper</text>
+
+  <rect x="146" y="118" width="52" height="18" rx="9" fill="#0A1628" stroke="#0057FF" stroke-width="1"/>
+  <text x="172" y="131" font-family="'Courier New',Courier,monospace" font-size="9" fill="#00CCFF" text-anchor="middle">Ollama</text>
+
+  <rect x="204" y="118" width="60" height="18" rx="9" fill="#0A1628" stroke="#0057FF" stroke-width="1"/>
+  <text x="234" y="131" font-family="'Courier New',Courier,monospace" font-size="9" fill="#00CCFF" text-anchor="middle">local-AI</text>
+</svg>
